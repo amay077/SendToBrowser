@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SendToBrowser</string>
+    <string name="share_intent_name">Send to Browser</string>
+</resources>

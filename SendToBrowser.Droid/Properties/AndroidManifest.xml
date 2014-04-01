@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" package="com.amay077.android.sendtobrowser" android:versionName="0.5">
+	<uses-sdk />
+	<application android:icon="@drawable/icon" android:label="SendToBrowser">
+	</application>
+</manifest>
