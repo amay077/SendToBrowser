@@ -44,7 +44,8 @@ namespace SendToBrowser
 
         string ExtractUrl(string data)
         {
-            var http = new Regex(@"http://(?<domain>[\w\.]*)/(?<path>[\w\./]*)");
+            // via http://piyopiyocs.blog115.fc2.com/blog-entry-636.html
+            var http = new Regex(@"(https?://[-_.!~*\'()a-zA-Z0-9;/?:@&=+$,%#]+)");
             var m = http.Match(data);
             return m.Value;
         }
